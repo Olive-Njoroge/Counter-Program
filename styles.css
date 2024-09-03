@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+    font-size: 10em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button{
+    margin-right: 10px;
+    border-radius: 6px;
+    border:none;
+    font-size: 28px;
+    padding: 5px 10px 5px 10px;
+    background-color: rgb(86, 128, 205);
+}
+
+button:hover{
+    background-color: rgb(10, 95, 253);
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
